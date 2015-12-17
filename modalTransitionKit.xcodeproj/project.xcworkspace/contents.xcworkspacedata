@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:modalTransitionTest.xcodeproj">
+      location = "self:/Users/James.An/Desktop/modalTransitionTest/modalTransitionKit.xcodeproj">
    </FileRef>
 </Workspace>

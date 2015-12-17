@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4C12B23B1C1FD8E900204A62"
-               BuildableName = "modalTransitionTest.app"
-               BlueprintName = "modalTransitionTest"
-               ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+               BuildableName = "modalTransitionKit.app"
+               BlueprintName = "modalTransitionKit"
+               ReferencedContainer = "container:modalTransitionKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4C12B24F1C1FD8E900204A62"
-               BuildableName = "modalTransitionTestTests.xctest"
-               BlueprintName = "modalTransitionTestTests"
-               ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+               BuildableName = "modalTransitionKit.xctest"
+               BlueprintName = "modalTransitionKitTests"
+               ReferencedContainer = "container:modalTransitionKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4C12B25A1C1FD8E900204A62"
-               BuildableName = "modalTransitionTestUITests.xctest"
-               BlueprintName = "modalTransitionTestUITests"
-               ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+               BuildableName = "modalTransitionKit.xctest"
+               BlueprintName = "modalTransitionKitUITests"
+               ReferencedContainer = "container:modalTransitionKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C12B23B1C1FD8E900204A62"
-            BuildableName = "modalTransitionTest.app"
-            BlueprintName = "modalTransitionTest"
-            ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+            BuildableName = "modalTransitionKit.app"
+            BlueprintName = "modalTransitionKit"
+            ReferencedContainer = "container:modalTransitionKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C12B23B1C1FD8E900204A62"
-            BuildableName = "modalTransitionTest.app"
-            BlueprintName = "modalTransitionTest"
-            ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+            BuildableName = "modalTransitionKit.app"
+            BlueprintName = "modalTransitionKit"
+            ReferencedContainer = "container:modalTransitionKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C12B23B1C1FD8E900204A62"
-            BuildableName = "modalTransitionTest.app"
-            BlueprintName = "modalTransitionTest"
-            ReferencedContainer = "container:modalTransitionTest.xcodeproj">
+            BuildableName = "modalTransitionKit.app"
+            BlueprintName = "modalTransitionKit"
+            ReferencedContainer = "container:modalTransitionKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

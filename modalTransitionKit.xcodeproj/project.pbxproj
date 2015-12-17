@@ -14,6 +14,14 @@
 		4C12B24A1C1FD8E900204A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C12B2481C1FD8E900204A62 /* LaunchScreen.storyboard */; };
 		4C12B2551C1FD8E900204A62 /* modalTransitionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2541C1FD8E900204A62 /* modalTransitionTestTests.swift */; };
 		4C12B2601C1FD8E900204A62 /* modalTransitionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B25F1C1FD8E900204A62 /* modalTransitionTestUITests.swift */; };
+		4C12B26E1C1FD8FD00204A62 /* ModalVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */; };
+		4C12B2701C1FD96B00204A62 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B26F1C1FD96B00204A62 /* ViewController2.swift */; };
+		4C12B27E1C2292C700204A62 /* EAAnimationDelayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */; };
+		4C12B27F1C2292C700204A62 /* EasyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B27D1C2292C700204A62 /* EasyAnimation.swift */; };
+		4C12B2831C2292D300204A62 /* RBBBlockBasedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */; };
+		4C12B2841C2292D300204A62 /* RBBLinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */; };
+		4C12B2851C2292D300204A62 /* RBBSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */; };
+		4C12B2871C229AE100204A62 /* ModalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2861C229AE100204A62 /* ModalAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +42,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C12B23C1C1FD8E900204A62 /* modalTransitionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modalTransitionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C12B23C1C1FD8E900204A62 /* modalTransitionKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modalTransitionKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C12B23F1C1FD8E900204A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C12B2411C1FD8E900204A62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C12B2441C1FD8E900204A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C12B2461C1FD8E900204A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C12B2491C1FD8E900204A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C12B24B1C1FD8E900204A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C12B2501C1FD8E900204A62 /* modalTransitionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C12B2501C1FD8E900204A62 /* modalTransitionKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C12B2541C1FD8E900204A62 /* modalTransitionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalTransitionTestTests.swift; sourceTree = "<group>"; };
 		4C12B2561C1FD8E900204A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C12B25B1C1FD8E900204A62 /* modalTransitionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C12B25B1C1FD8E900204A62 /* modalTransitionKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C12B25F1C1FD8E900204A62 /* modalTransitionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalTransitionTestUITests.swift; sourceTree = "<group>"; };
 		4C12B2611C1FD8E900204A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalVCPresenter.swift; path = ../ModalVCPresenter.swift; sourceTree = "<group>"; };
+		4C12B26F1C1FD96B00204A62 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnimationDelayed.swift; sourceTree = "<group>"; };
+		4C12B27C1C2292C700204A62 /* EasyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyAnimation.h; sourceTree = "<group>"; };
+		4C12B27D1C2292C700204A62 /* EasyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAnimation.swift; sourceTree = "<group>"; };
+		4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBBlockBasedArray.swift; sourceTree = "<group>"; };
+		4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBLinearInterpolation.swift; sourceTree = "<group>"; };
+		4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBSpringAnimation.swift; sourceTree = "<group>"; };
+		4C12B2861C229AE100204A62 /* ModalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalAnimation.swift; path = ../ModalAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +94,7 @@
 		4C12B2331C1FD8E900204A62 = {
 			isa = PBXGroup;
 			children = (
+				4C12B2881C22B8F800204A62 /* Classes */,
 				4C12B23E1C1FD8E900204A62 /* modalTransitionTest */,
 				4C12B2531C1FD8E900204A62 /* modalTransitionTestTests */,
 				4C12B25E1C1FD8E900204A62 /* modalTransitionTestUITests */,
@@ -87,9 +105,9 @@
 		4C12B23D1C1FD8E900204A62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C12B23C1C1FD8E900204A62 /* modalTransitionTest.app */,
-				4C12B2501C1FD8E900204A62 /* modalTransitionTestTests.xctest */,
-				4C12B25B1C1FD8E900204A62 /* modalTransitionTestUITests.xctest */,
+				4C12B23C1C1FD8E900204A62 /* modalTransitionKit.app */,
+				4C12B2501C1FD8E900204A62 /* modalTransitionKit.xctest */,
+				4C12B25B1C1FD8E900204A62 /* modalTransitionKit.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +115,10 @@
 		4C12B23E1C1FD8E900204A62 /* modalTransitionTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C12B27A1C2292BE00204A62 /* dependency */,
 				4C12B23F1C1FD8E900204A62 /* AppDelegate.swift */,
 				4C12B2411C1FD8E900204A62 /* ViewController.swift */,
+				4C12B26F1C1FD96B00204A62 /* ViewController2.swift */,
 				4C12B2431C1FD8E900204A62 /* Main.storyboard */,
 				4C12B2461C1FD8E900204A62 /* Assets.xcassets */,
 				4C12B2481C1FD8E900204A62 /* LaunchScreen.storyboard */,
@@ -125,12 +145,35 @@
 			path = modalTransitionTestUITests;
 			sourceTree = "<group>";
 		};
+		4C12B27A1C2292BE00204A62 /* dependency */ = {
+			isa = PBXGroup;
+			children = (
+				4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */,
+				4C12B27C1C2292C700204A62 /* EasyAnimation.h */,
+				4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */,
+				4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */,
+				4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */,
+				4C12B27D1C2292C700204A62 /* EasyAnimation.swift */,
+			);
+			name = dependency;
+			sourceTree = "<group>";
+		};
+		4C12B2881C22B8F800204A62 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */,
+				4C12B2861C229AE100204A62 /* ModalAnimation.swift */,
+			);
+			name = Classes;
+			path = modalTransitionTest/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C12B23B1C1FD8E900204A62 /* modalTransitionTest */ = {
+		4C12B23B1C1FD8E900204A62 /* modalTransitionKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C12B2641C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTest" */;
+			buildConfigurationList = 4C12B2641C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKit" */;
 			buildPhases = (
 				4C12B2381C1FD8E900204A62 /* Sources */,
 				4C12B2391C1FD8E900204A62 /* Frameworks */,
@@ -140,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = modalTransitionTest;
+			name = modalTransitionKit;
 			productName = modalTransitionTest;
-			productReference = 4C12B23C1C1FD8E900204A62 /* modalTransitionTest.app */;
+			productReference = 4C12B23C1C1FD8E900204A62 /* modalTransitionKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C12B24F1C1FD8E900204A62 /* modalTransitionTestTests */ = {
+		4C12B24F1C1FD8E900204A62 /* modalTransitionKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C12B2671C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTestTests" */;
+			buildConfigurationList = 4C12B2671C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKitTests" */;
 			buildPhases = (
 				4C12B24C1C1FD8E900204A62 /* Sources */,
 				4C12B24D1C1FD8E900204A62 /* Frameworks */,
@@ -158,14 +201,14 @@
 			dependencies = (
 				4C12B2521C1FD8E900204A62 /* PBXTargetDependency */,
 			);
-			name = modalTransitionTestTests;
+			name = modalTransitionKitTests;
 			productName = modalTransitionTestTests;
-			productReference = 4C12B2501C1FD8E900204A62 /* modalTransitionTestTests.xctest */;
+			productReference = 4C12B2501C1FD8E900204A62 /* modalTransitionKit.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4C12B25A1C1FD8E900204A62 /* modalTransitionTestUITests */ = {
+		4C12B25A1C1FD8E900204A62 /* modalTransitionKitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C12B26A1C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTestUITests" */;
+			buildConfigurationList = 4C12B26A1C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKitUITests" */;
 			buildPhases = (
 				4C12B2571C1FD8E900204A62 /* Sources */,
 				4C12B2581C1FD8E900204A62 /* Frameworks */,
@@ -176,9 +219,9 @@
 			dependencies = (
 				4C12B25D1C1FD8E900204A62 /* PBXTargetDependency */,
 			);
-			name = modalTransitionTestUITests;
+			name = modalTransitionKitUITests;
 			productName = modalTransitionTestUITests;
-			productReference = 4C12B25B1C1FD8E900204A62 /* modalTransitionTestUITests.xctest */;
+			productReference = 4C12B25B1C1FD8E900204A62 /* modalTransitionKit.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C12B2371C1FD8E900204A62 /* Build configuration list for PBXProject "modalTransitionTest" */;
+			buildConfigurationList = 4C12B2371C1FD8E900204A62 /* Build configuration list for PBXProject "modalTransitionKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C12B23B1C1FD8E900204A62 /* modalTransitionTest */,
-				4C12B24F1C1FD8E900204A62 /* modalTransitionTestTests */,
-				4C12B25A1C1FD8E900204A62 /* modalTransitionTestUITests */,
+				4C12B23B1C1FD8E900204A62 /* modalTransitionKit */,
+				4C12B24F1C1FD8E900204A62 /* modalTransitionKitTests */,
+				4C12B25A1C1FD8E900204A62 /* modalTransitionKitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C12B2841C2292D300204A62 /* RBBLinearInterpolation.swift in Sources */,
+				4C12B2831C2292D300204A62 /* RBBBlockBasedArray.swift in Sources */,
+				4C12B2851C2292D300204A62 /* RBBSpringAnimation.swift in Sources */,
 				4C12B2421C1FD8E900204A62 /* ViewController.swift in Sources */,
+				4C12B2701C1FD96B00204A62 /* ViewController2.swift in Sources */,
+				4C12B2871C229AE100204A62 /* ModalAnimation.swift in Sources */,
+				4C12B27F1C2292C700204A62 /* EasyAnimation.swift in Sources */,
 				4C12B2401C1FD8E900204A62 /* AppDelegate.swift in Sources */,
+				4C12B26E1C1FD8FD00204A62 /* ModalVCPresenter.swift in Sources */,
+				4C12B27E1C2292C700204A62 /* EAAnimationDelayed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +333,12 @@
 /* Begin PBXTargetDependency section */
 		4C12B2521C1FD8E900204A62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C12B23B1C1FD8E900204A62 /* modalTransitionTest */;
+			target = 4C12B23B1C1FD8E900204A62 /* modalTransitionKit */;
 			targetProxy = 4C12B2511C1FD8E900204A62 /* PBXContainerItemProxy */;
 		};
 		4C12B25D1C1FD8E900204A62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C12B23B1C1FD8E900204A62 /* modalTransitionTest */;
+			target = 4C12B23B1C1FD8E900204A62 /* modalTransitionKit */;
 			targetProxy = 4C12B25C1C1FD8E900204A62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +451,7 @@
 				INFOPLIST_FILE = modalTransitionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = modalTransitionKit;
 			};
 			name = Debug;
 		};
@@ -411,7 +462,7 @@
 				INFOPLIST_FILE = modalTransitionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = modalTransitionKit;
 			};
 			name = Release;
 		};
@@ -422,8 +473,8 @@
 				INFOPLIST_FILE = modalTransitionTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalTransitionTest.app/modalTransitionTest";
+				PRODUCT_NAME = modalTransitionKit;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalTransitionKit.app/modalTransitionKit";
 			};
 			name = Debug;
 		};
@@ -434,8 +485,8 @@
 				INFOPLIST_FILE = modalTransitionTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalTransitionTest.app/modalTransitionTest";
+				PRODUCT_NAME = modalTransitionKit;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modalTransitionKit.app/modalTransitionKit";
 			};
 			name = Release;
 		};
@@ -445,7 +496,7 @@
 				INFOPLIST_FILE = modalTransitionTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = modalTransitionKit;
 				TEST_TARGET_NAME = modalTransitionTest;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +508,7 @@
 				INFOPLIST_FILE = modalTransitionTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesanse.modalTransitionTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = modalTransitionKit;
 				TEST_TARGET_NAME = modalTransitionTest;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C12B2371C1FD8E900204A62 /* Build configuration list for PBXProject "modalTransitionTest" */ = {
+		4C12B2371C1FD8E900204A62 /* Build configuration list for PBXProject "modalTransitionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C12B2621C1FD8E900204A62 /* Debug */,
@@ -475,29 +526,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C12B2641C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTest" */ = {
+		4C12B2641C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C12B2651C1FD8E900204A62 /* Debug */,
 				4C12B2661C1FD8E900204A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4C12B2671C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTestTests" */ = {
+		4C12B2671C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C12B2681C1FD8E900204A62 /* Debug */,
 				4C12B2691C1FD8E900204A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4C12B26A1C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionTestUITests" */ = {
+		4C12B26A1C1FD8E900204A62 /* Build configuration list for PBXNativeTarget "modalTransitionKitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C12B26B1C1FD8E900204A62 /* Debug */,
 				4C12B26C1C1FD8E900204A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

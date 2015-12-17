@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="modalTransitionTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,113 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="presenter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqF-Ui-rn5">
+                                <rect key="frame" x="263" y="290" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.01120438006" green="0.16335045100000001" blue="0.74879557289999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stone" translatesAutoresizingMaskIntoConstraints="NO" id="Z62-uj-kg1">
+                                <rect key="frame" x="-295" y="-385" width="1189" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="apW-ZY-BUy">
+                                <rect key="frame" x="270" y="326" width="61" height="135"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Lt-G5-HRZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="30"/>
+                                        <state key="normal" title="standard"/>
+                                        <connections>
+                                            <action selector="presentStandard" destination="BYZ-38-t0r" eventType="touchUpInside" id="YjO-PP-ile"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NO5-Ph-9py">
+                                        <rect key="frame" x="10" y="35" width="41" height="30"/>
+                                        <state key="normal" title="rotate"/>
+                                        <connections>
+                                            <action selector="presentRotation" destination="BYZ-38-t0r" eventType="touchUpInside" id="D4d-9G-TZP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8a-Rp-ZpV">
+                                        <rect key="frame" x="15" y="70" width="31" height="30"/>
+                                        <state key="normal" title="fade"/>
+                                        <connections>
+                                            <action selector="presentFade" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ov-PK-JuH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abh-sS-WT8">
+                                        <rect key="frame" x="10" y="105" width="42" height="30"/>
+                                        <state key="normal" title="shrink"/>
+                                        <connections>
+                                            <action selector="presentShrink" destination="BYZ-38-t0r" eventType="touchUpInside" id="6WJ-e5-8aM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YqF-Ui-rn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Os-dm-6QP"/>
+                            <constraint firstItem="Z62-uj-kg1" firstAttribute="centerY" secondItem="YqF-Ui-rn5" secondAttribute="centerY" id="9jh-Ul-cVi"/>
+                            <constraint firstItem="apW-ZY-BUy" firstAttribute="top" secondItem="YqF-Ui-rn5" secondAttribute="bottom" constant="15" id="Q4N-Z2-oKD"/>
+                            <constraint firstItem="YqF-Ui-rn5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aFx-y4-LfQ"/>
+                            <constraint firstItem="Z62-uj-kg1" firstAttribute="centerX" secondItem="YqF-Ui-rn5" secondAttribute="centerX" id="h00-ka-qfh"/>
+                            <constraint firstItem="apW-ZY-BUy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iau-4H-NdR"/>
+                            <constraint firstItem="YqF-Ui-rn5" firstAttribute="top" secondItem="Z62-uj-kg1" secondAttribute="bottom" constant="8" id="sZM-60-25G"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9jh-Ul-cVi"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-153" y="422"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="KGt-bo-Us4">
+            <objects>
+                <viewController storyboardIdentifier="test2" id="H7S-S6-X22" customClass="ViewController2" customModule="modalTransitionTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CK5-YI-Ndk"/>
+                        <viewControllerLayoutGuide type="bottom" id="a2g-6P-brU"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="T5d-mH-MJX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vc 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKi-II-Xb2">
+                                <rect key="frame" x="284" y="290" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDb-NZ-E2n">
+                                <rect key="frame" x="277" y="319" width="46" height="30"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismiss" destination="H7S-S6-X22" eventType="touchUpInside" id="PB0-54-ufN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.97801106770000001" green="0.499252266" blue="0.1847515595" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DKi-II-Xb2" firstAttribute="centerX" secondItem="T5d-mH-MJX" secondAttribute="centerX" id="7dB-K5-dRK"/>
+                            <constraint firstItem="RDb-NZ-E2n" firstAttribute="centerX" secondItem="DKi-II-Xb2" secondAttribute="centerX" id="XnV-cO-8hl"/>
+                            <constraint firstItem="DKi-II-Xb2" firstAttribute="centerY" secondItem="T5d-mH-MJX" secondAttribute="centerY" id="l0w-lY-CFo"/>
+                            <constraint firstItem="RDb-NZ-E2n" firstAttribute="top" secondItem="DKi-II-Xb2" secondAttribute="bottom" constant="8" id="xRO-t7-I2b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jfF-Mq-dlH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="603" y="422"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stone" width="1189" height="666"/>
+    </resources>
 </document>

@@ -14,14 +14,15 @@
 		4C12B24A1C1FD8E900204A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C12B2481C1FD8E900204A62 /* LaunchScreen.storyboard */; };
 		4C12B2551C1FD8E900204A62 /* modalTransitionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2541C1FD8E900204A62 /* modalTransitionTestTests.swift */; };
 		4C12B2601C1FD8E900204A62 /* modalTransitionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B25F1C1FD8E900204A62 /* modalTransitionTestUITests.swift */; };
-		4C12B26E1C1FD8FD00204A62 /* ModalVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */; };
 		4C12B2701C1FD96B00204A62 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B26F1C1FD96B00204A62 /* ViewController2.swift */; };
 		4C12B27E1C2292C700204A62 /* EAAnimationDelayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */; };
 		4C12B27F1C2292C700204A62 /* EasyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B27D1C2292C700204A62 /* EasyAnimation.swift */; };
 		4C12B2831C2292D300204A62 /* RBBBlockBasedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */; };
 		4C12B2841C2292D300204A62 /* RBBLinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */; };
 		4C12B2851C2292D300204A62 /* RBBSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */; };
-		4C12B2871C229AE100204A62 /* ModalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B2861C229AE100204A62 /* ModalAnimation.swift */; };
+		4C12B28A1C23B2FC00204A62 /* QuickModalPresentation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4C12B2891C23B2FC00204A62 /* QuickModalPresentation.podspec */; };
+		4C12B28D1C23D79A00204A62 /* ModalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B28B1C23D79A00204A62 /* ModalAnimation.swift */; };
+		4C12B28E1C23D79A00204A62 /* ModalVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C12B28C1C23D79A00204A62 /* ModalVCPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +56,15 @@
 		4C12B25B1C1FD8E900204A62 /* modalTransitionKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C12B25F1C1FD8E900204A62 /* modalTransitionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalTransitionTestUITests.swift; sourceTree = "<group>"; };
 		4C12B2611C1FD8E900204A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalVCPresenter.swift; path = ../ModalVCPresenter.swift; sourceTree = "<group>"; };
 		4C12B26F1C1FD96B00204A62 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnimationDelayed.swift; sourceTree = "<group>"; };
-		4C12B27C1C2292C700204A62 /* EasyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyAnimation.h; sourceTree = "<group>"; };
 		4C12B27D1C2292C700204A62 /* EasyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAnimation.swift; sourceTree = "<group>"; };
 		4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBBlockBasedArray.swift; sourceTree = "<group>"; };
 		4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBLinearInterpolation.swift; sourceTree = "<group>"; };
 		4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBBSpringAnimation.swift; sourceTree = "<group>"; };
-		4C12B2861C229AE100204A62 /* ModalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalAnimation.swift; path = ../ModalAnimation.swift; sourceTree = "<group>"; };
+		4C12B2891C23B2FC00204A62 /* QuickModalPresentation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickModalPresentation.podspec; sourceTree = "<group>"; };
+		4C12B28B1C23D79A00204A62 /* ModalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAnimation.swift; sourceTree = "<group>"; };
+		4C12B28C1C23D79A00204A62 /* ModalVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalVCPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		4C12B2331C1FD8E900204A62 = {
 			isa = PBXGroup;
 			children = (
+				4C12B2891C23B2FC00204A62 /* QuickModalPresentation.podspec */,
 				4C12B2881C22B8F800204A62 /* Classes */,
 				4C12B23E1C1FD8E900204A62 /* modalTransitionTest */,
 				4C12B2531C1FD8E900204A62 /* modalTransitionTestTests */,
@@ -149,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				4C12B27B1C2292C700204A62 /* EAAnimationDelayed.swift */,
-				4C12B27C1C2292C700204A62 /* EasyAnimation.h */,
 				4C12B2801C2292D300204A62 /* RBBBlockBasedArray.swift */,
 				4C12B2811C2292D300204A62 /* RBBLinearInterpolation.swift */,
 				4C12B2821C2292D300204A62 /* RBBSpringAnimation.swift */,
@@ -161,8 +162,8 @@
 		4C12B2881C22B8F800204A62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C12B26D1C1FD8FD00204A62 /* ModalVCPresenter.swift */,
-				4C12B2861C229AE100204A62 /* ModalAnimation.swift */,
+				4C12B28B1C23D79A00204A62 /* ModalAnimation.swift */,
+				4C12B28C1C23D79A00204A62 /* ModalVCPresenter.swift */,
 			);
 			name = Classes;
 			path = modalTransitionTest/Classes;
@@ -272,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C12B28A1C23B2FC00204A62 /* QuickModalPresentation.podspec in Resources */,
 				4C12B24A1C1FD8E900204A62 /* LaunchScreen.storyboard in Resources */,
 				4C12B2471C1FD8E900204A62 /* Assets.xcassets in Resources */,
 				4C12B2451C1FD8E900204A62 /* Main.storyboard in Resources */,
@@ -303,11 +305,11 @@
 				4C12B2831C2292D300204A62 /* RBBBlockBasedArray.swift in Sources */,
 				4C12B2851C2292D300204A62 /* RBBSpringAnimation.swift in Sources */,
 				4C12B2421C1FD8E900204A62 /* ViewController.swift in Sources */,
+				4C12B28D1C23D79A00204A62 /* ModalAnimation.swift in Sources */,
 				4C12B2701C1FD96B00204A62 /* ViewController2.swift in Sources */,
-				4C12B2871C229AE100204A62 /* ModalAnimation.swift in Sources */,
 				4C12B27F1C2292C700204A62 /* EasyAnimation.swift in Sources */,
+				4C12B28E1C23D79A00204A62 /* ModalVCPresenter.swift in Sources */,
 				4C12B2401C1FD8E900204A62 /* AppDelegate.swift in Sources */,
-				4C12B26E1C1FD8FD00204A62 /* ModalVCPresenter.swift in Sources */,
 				4C12B27E1C2292C700204A62 /* EAAnimationDelayed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

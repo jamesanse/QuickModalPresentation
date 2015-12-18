@@ -1,0 +1,10 @@
+PODS:
+  - EasyAnimation (1.0.2)
+
+DEPENDENCIES:
+  - EasyAnimation (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  EasyAnimation: 9615e40f58aa7d8d6a67de66e0edda1903ffa990
+
+COCOAPODS: 0.39.0
